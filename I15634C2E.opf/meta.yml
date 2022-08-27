@@ -1,21 +1,51 @@
 id: I15634C2E
+legacy_id: P000405
+ocr_import_info:
+  bdrc_scan_id: W00KG02331
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-17T23:12:40'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-17T23:13:44+00:00'
-last_modified: '2022-06-15T17:53:37.134075+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-08-27T01:45:58.108905+00:00'
+last_modified: 2022-08-27 09:46:25.400739
+parser: null
 source_metadata:
-  id: bdr:W00KG02331
-  title: བོད་ཀྱི་རིག་གནས་ལོ་རྒྱུས་དཔྱད་གཞིའི་རྒྱུ་ཆ་བདམས་བསྒྲིགས་༔ ༩
-  author: ''
+  id: http://purl.bdrc.io/resource/W00KG02331
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base: {}
-statistics: {}
-quality: {}
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW00KG02331
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: བོད་ཀྱི་རིག་གནས་ལོ་རྒྱུས་དཔྱད་གཞིའི་རྒྱུ་ཆ་བདམས་བསྒྲིགས་༔ ༩
+statistics:
+  ocr_word_mean_confidence_index: 0.6290129133391075
+  ocr_word_median_confidence_index: 0.6700000166893005
+quality: null
+bases:
+  I00KG02352:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I00KG02352
+      total_pages: 165
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I00KG02352.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6700000166893005
+      ocr_word_mean_confidence_index: 0.6290129133391075
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
